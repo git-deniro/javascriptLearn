@@ -164,16 +164,33 @@ alert(bigger);
  * Truthy and falsy values and equality operators
  */
 
-var height = 0;
+// var height = 0;
 
-if (height || height === 0){
-    console.log('variable is defined');
-} else{
-    console.log('variable is not been defined');
-}
+// if (height || height === 0){
+//     console.log('variable is defined');
+// } else{
+//     console.log('variable is not been defined');
+// }
 
-//Equality operators
-height = 23;
-if (height == '23'){
-    console.log('The == operator does type coercion!');
-}
+// //Equality operators
+// height = 23;
+// if (height == '23'){
+//     console.log('The == operator does type coercion!');
+// }
+
+/**
+ * Coding challenge n02
+ */
+
+// var johnScore = [89, 120, 103], mikeScore = [116, 94, 123], maryScore = [97, 134 ,105];
+// var avgJohn = (johnScore[0] + johnScore[1] + johnScore[2])/3
+// var avgMike = (mikeScore[0] + mikeScore[1] + mikeScore[2])/3
+// var avgMary = (maryScore[0] + maryScore[1] + maryScore[2])/3
+
+// if (avgJohn > avgMike && avgJohn > avgMary){
+//     console.log(`John's team has the heighest score with ${avgJohn}`);
+// } else if(avgMike > avgMike && avgMike > avgMary) {
+//     console.log(`Mike's team has the heighest score with ${avgMike}`);
+// } else {
+//     console.log(`Mary's team has the heighest score with ${avgMary}`);
+// }
